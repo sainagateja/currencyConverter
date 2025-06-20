@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: yellow;
+}
+
+.container {
+    background-color: green;
+    padding: 20px;
+    border-radius: 12px;
+    min-height: 40vh;
+    width: 34vh;
+}
+
+form {
+    margin: 20px 0 10px 0;
+}
+
+form select,
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+form input {
+    width: 50px;
+    border: none;
+    font-size: 12px;
+    height: 33px;
+    padding-left: 5px;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: green;
+}
+
+.fromContainer {
+    display: flex;
+}
+
+.toContainer {
+    display: flex;
+
+}
+
+.amount {
+    margin-top: 2px;
+    margin-left: 45px;
+}
+
+.resultBox {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.dropdown i {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.select-container img {
+    max-width: 40px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+.colo {
+    color: #ffffff;
+}
+
+#iicon {
+    color: #ffffff;
+}
+
+.select-container select {
+    font-size: 15px;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.msg {
+    margin: 20px 0 20px 0;
+}
+
+form button {
+    height: 27px;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
