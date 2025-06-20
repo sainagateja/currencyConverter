@@ -32,12 +32,31 @@ Font Awesome (for the swap icon)
 Folder Structure :-
 
 project-folder/
-├── .html
-├── style.css
-├── script.js
+├── currencyConverter.html
+├── currencyConverter.css
+├── currencyConverter.js
 └── README.md
 
 
+How to Use :- 
+
+1. Clone this repository:
+
+2. Open the index.html file in your browser.
+
+3. Select the source and target currencies from the dropdown.
+
+4. Enter the amount you wish to convert.
+
+5. The converted amount will be shown instantly below the dropdowns.
+
+
+
+API Reference :-
+
+- The exchange rates are fetched from:
+
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies
 
 
 
